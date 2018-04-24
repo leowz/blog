@@ -4,7 +4,7 @@
 
 # Site
 title: Léo`s Blog
-subtitle: My Tech Blog
+subtitle: 
 description: 
 author: Léo WENG
 email: weng.zhang@icloud.com
@@ -72,7 +72,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia
+theme: freemind
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -90,5 +90,24 @@ deploy:
  # - twitter
  # - recent_posts
  
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: false
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
+
 # Disque
 disqus_shortname: leoweng 
